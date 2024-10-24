@@ -1,25 +1,37 @@
-﻿# FGO_Bluetooth_Assistant
-### 项目简介，请仔细阅读（[跳转至中文部分](#jump1)）
+# FGO_Bluetooth_Assistant
+
+### This is a project that has already been DISCONTINUED. On December 31, 2021, the Chinese server announced that the cross-platform login feature between Android and iOS would be available after the next major update. Since there exists similar apps that work for the Android ver of this game and they are already well-developed, this project will stop future updates. Once the cross-platform login feature is implemented, you can directly use apps that work for the Android platform.
+
+=====================================================================
+### Below is the English translation of the old project summary and a short description of the project:
+
+### At the time of this project's release, this was the only available solution on the iOS platform for automating specific highly repetitive actions in the game. As the project developed, the initial hardware dependencies were also removed, further lowering the barrier to use it.
+
+### Summary：
 This is the V2.0 ver game assitant for Fate Grand Order (iOS &amp; Android both suitable). For details, see [the following photos](#jump2), or [my video on bilibili](https://www.bilibili.com/video/av82095192?p=2).
 
-### Important：
-Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. (For players of Chinese sever:)If you are Android player or ios player with Mac PC , I highly recommend you to use Airtest or other scripts on Github(like [this](https://github.com/hgjazhgj/FGO-py)), because they are totally zero cost and have more functions. This programm let those who play FGO on iOS devices but only have Windows PC realise automatic play, just like using Adb to control Android devices. 
+Android phones can be directly controlled by a Windows PC or Mac, but iPhones can only be controlled by a Mac.
 
-(For players of Japanese sever:)Japanese FGO client has currently cancelled root check for Android devices, but we are not sure whether it will come back in the future. More importantly, it's not allowed to use an Android emulator to play FGO. So for Japanese player, whatever the device you are using, this maybe the best solution.
+(For players of the Chinese server): If you are an Android player or an iOS player with a Mac, I highly recommend using Airtest or other scripts on GitHub (like this one) because they are completely free and offer more features. This program allows players who play FGO on iOS devices but only have a Windows PC to achieve automatic play, similar to using ADB to control Android devices.
 
-I'm not clear about the situation of US sever, US players may decide which to use by yourself.
+(For players of the Japanese server): The Japanese FGO client has currently removed the root check for Android devices, but we are unsure if it will return in the future. More importantly, it’s not permitted to use an Android emulator to play FGO. So for Japanese players, regardless of the device you are using, this may be the best solution.
 
-To lunch this program, all you need to do is to buy a bluebooth mouse module(about 40RMB / 6USD / 800JPY) and inatall Airplayer on your PC. You don't need to install any third party software on your phone. Also no need to jailbreak or root your phone.(Make sure that your system is iOS13 or later, Android user need Android3.0 or later)
+I’m not sure about the situation on the US server. US players can decide which option works best for them.
 
-If you don't know how to connect a bluebooth mouse with your phone, just Google it!
+To launch this program, all you need to do is buy a Bluetooth mouse module (about 40 RMB / 6 USD / 800 JPY) and install Airplayer on your PC. You don’t need to install any third-party software on your phone, and there’s no need to jailbreak or root your phone. (Ensure your iOS version is 13 or later, and Android users need Android 3.0 or later.)
 
-I know that in Japan, it's not allowed to use an Android emulator to play FGO, but this programm use the phone's own function to realize automatic play. It's time to liberate your hands and time!
+If you don’t know how to connect a Bluetooth mouse to your phone, just Google it!
 
-Since I'm a FGO player of Chinese server, all the image templates are Chinese ver. For player in other countries, you need to make templates by yourself.
+I understand that in Japan, it’s not allowed to use an Android emulator to play FGO, but this program uses the phone’s own functions to achieve automatic play. It’s time to free your hands and save time!
 
-The following is the instruction of this programme, you can use translate webpage to read them.
+Since I am an FGO player on the Chinese server, all the image templates are in the Chinese version. Players in other regions will need to create their own templates.
 
+Below is the instruction for this program, and you can use a webpage translator to read it.
+=====================================================================
 <span id="jump1"> </span>
+### 国服跨平台登录功能开发须知
+国服于2021年12月31日预告了安卓与IOS跨平台登录功能将于下一次大版本更新后上线，由于安卓脚本已经十分完善，故本项目将停止后续更新，带跨平台登录功能开发完成直接使用安卓系脚本即可。
+
 ### 通用的使用方法
 由于已知的兼容性问题，蓝牙鼠标模块仅适用于矩形屏幕以及ios13-ios13.3系统，考虑到实际情况通用性极差。因此目前推荐使用[虫洞](https://er.run/)软件来进行投屏与控制，现以新增虫洞的投屏与鼠标驱动。
 
@@ -55,10 +67,20 @@ The following is the instruction of this programme, you can use translate webpag
 
 ## 更新日志
 
-### 2021-8-25:
-1.搓丸子功能全面重构，实现全自动化。可自动抽取友情池、识别背包已满状态、升级经验卡并确保卡片被锁定、贩卖低星级英灵。
-2.优化大量代码运行逻辑，以便后续开发
-3.优化软件运行效率
+### 2021-10-3:
+1.新增了邮件提醒功能以取代手机短信提醒。
+
+### 2021-9-23
+1.程序结构优化，所有配置均放在`global_config`文件里，如需修改只需改一处即可；
+
+2.提供了WinSpy软件方便调试，可以拖拽查看虫洞界面大小。
+
+### 2021-8-25 (感谢[paul0718](https://github.com/paul0718)大佬提供的PR):
+1.搓丸子功能全面重构，实现全自动化。可自动抽取友情池、识别背包已满状态、升级经验卡并确保卡片被锁定、贩卖低星级英灵；
+
+2.优化大量代码运行逻辑，以便后续开发；
+
+3.优化软件运行效率。
 
 ### 2021-8-8:
 1.新增了C呆的技能识别模板。
@@ -172,7 +194,7 @@ The following is the instruction of this programme, you can use translate webpag
 8.更多功能开发中。。。。。
 
 ## 二.使用方法
-0.阅读文档中的PDF文件，内部有蓝牙鼠标模块的淘宝商品界面以及程序中需要一定修改的部分的简介
+0.修改`global_config`里的手机屏幕配置参数，lengh为把虫洞窗口拉伸到纵向649像素时窗口横向的像素数量，bias为游戏两边蓝条的宽度（新版已无），善用`match_template`函数中的`show_switch`参数，可以查看截取的图像是否正确，由于版本大改，`fgo_func`文件中部分像素点也需要修改。
 
 1.安装python3.7运行环境(建议直接安装[Anaconda](https://www.anaconda.com/distribution/))
 
@@ -197,3 +219,4 @@ The following is the instruction of this programme, you can use translate webpag
 6.手机连接电脑的Airplayer
 
 7.运行`FGO_func`，等待完成即可
+
