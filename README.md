@@ -3,9 +3,7 @@
 ### This is a project that has already been DISCONTINUED. On December 31, 2021, the Chinese server announced that the cross-platform login feature between Android and iOS would be available after the next major update. Since there exists similar apps that work for the Android ver of this game and they are already well-developed, this project will stop future updates. Once the cross-platform login feature is implemented, you can directly use apps that work for the Android platform.
 
 =====================================================================
-### Below is the English translation of the old project summary and a short description of the project:
-
-### At the time of this project's release, this was the only available solution on the iOS platform for automating specific highly repetitive actions in the game. As the project developed, the initial hardware dependencies were also removed, further lowering the barrier to use it.
+### At the time of this project's release, this was the only available solution on the iOS platform for automating specific highly repetitive actions in the game. As the project developed, the initial hardware dependencies were also removed, further lowering the barrier to use it. Below is the English translation of the old project summary:
 
 ### Summary：
 This is the V2.0 ver game assitant for Fate Grand Order (iOS &amp; Android both suitable). For details, see [the following photos](#jump2), or [my video on bilibili](https://www.bilibili.com/video/av82095192?p=2).
