@@ -1,6 +1,7 @@
 # FGO_Bluetooth_Assistant
 
-### This is a project that has already been DISCONTINUED. On December 31, 2021, the Chinese server announced that the cross-platform login feature between Android and iOS would be available after the next major update. Since there exists similar apps that work for the Android ver of this game and they are already well-developed, this project will stop future updates. Once the cross-platform login feature is implemented, you can directly use apps that work for the Android platform.
+### THIS IS A PROJECT THAT IS NO LONGER BEING MAINTAINED. 
+On December 31, 2021, the Chinese server announced that the cross-platform login feature between Android and iOS would be available after the next major update. Since there exists similar apps that work for the Android ver of this game and they are already well-developed, this project will stop future updates. Once the cross-platform login feature is implemented, you can directly use apps that work for the Android platform. If you want to see the latest repo, check https://github.com/McLaren12345/FGO_Bluetooth_Assistant
 
 =====================================================================
 ### At the time of this project's release, this was the only available solution on the iOS platform for automating specific highly repetitive actions in the game. As the project developed, the initial hardware dependencies were also removed, further lowering the barrier to use it. Below is the English translation of the old project summary:
